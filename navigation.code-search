@@ -1,0 +1,183 @@
+# Query: navigation
+# ContextLines: 1
+
+63 results - 7 files
+
+App.js:
+  3  import React from 'react';
+  4: import AppNavigator from './src/navigation/Navigation';
+  5  
+
+Navigation.js:
+   1: // src/navigation/Navigation.js
+   2  import * as React from 'react';
+   3: import { NavigationContainer } from '@react-navigation/native';
+   4: import { createNativeStackNavigator } from '@react-navigation/native-stack';
+   5  import HomeScreen from '../screens/HomeScreen';
+
+  10    return (
+  11:     <NavigationContainer>
+  12        <Stack.Navigator initialRouteName="Home">
+
+  14        </Stack.Navigator>
+  15:     </NavigationContainer>
+  16    );
+
+package-lock.json:
+    11          "@expo/vector-icons": "^14.0.0",
+    12:         "@react-navigation/native": "^6.1.17",
+    13:         "@react-navigation/native-stack": "^6.9.26",
+    14          "@reduxjs/toolkit": "^2.2.5",
+
+  4711      },
+  4712:     "node_modules/@react-navigation/bottom-tabs": {
+  4713        "version": "6.5.20",
+  4714:       "resolved": "https://registry.npmjs.org/@react-navigation/bottom-tabs/-/bottom-tabs-6.5.20.tgz",
+  4715        "integrity": "sha512-ow6Z06iS4VqBO8d7FP+HsGjJLWt2xTWIvuWjpoCvsM/uQXzCRDIjBv9HaKcXbF0yTW7IMir0oDAbU5PFzEDdgA==",
+
+  4717        "dependencies": {
+  4718:         "@react-navigation/elements": "^1.3.30",
+  4719          "color": "^4.2.3",
+
+  4722        "peerDependencies": {
+  4723:         "@react-navigation/native": "^6.0.0",
+  4724          "react": "*",
+
+  4729      },
+  4730:     "node_modules/@react-navigation/core": {
+  4731        "version": "6.4.16",
+  4732:       "resolved": "https://registry.npmjs.org/@react-navigation/core/-/core-6.4.16.tgz",
+  4733        "integrity": "sha512-UDTJBsHxnzgFETR3ZxhctP+RWr4SkyeZpbhpkQoIGOuwSCkt1SE0qjU48/u6r6w6XlX8OqVudn1Ab0QFXTHxuQ==",
+
+  4735        "dependencies": {
+  4736:         "@react-navigation/routers": "^6.1.9",
+  4737          "escape-string-regexp": "^4.0.0",
+
+  4746      },
+  4747:     "node_modules/@react-navigation/core/node_modules/react-is": {
+  4748        "version": "16.13.1",
+
+  4752      },
+  4753:     "node_modules/@react-navigation/elements": {
+  4754        "version": "1.3.30",
+  4755:       "resolved": "https://registry.npmjs.org/@react-navigation/elements/-/elements-1.3.30.tgz",
+  4756        "integrity": "sha512-plhc8UvCZs0UkV+sI+3bisIyn78wz9O/BiWZXpounu72k/R/Sj5PuZYFJ1fi6psvriUveMCGh4LeZckAZu2qiQ==",
+
+  4758        "peerDependencies": {
+  4759:         "@react-navigation/native": "^6.0.0",
+  4760          "react": "*",
+
+  4764      },
+  4765:     "node_modules/@react-navigation/native": {
+  4766        "version": "6.1.17",
+  4767:       "resolved": "https://registry.npmjs.org/@react-navigation/native/-/native-6.1.17.tgz",
+  4768        "integrity": "sha512-mer3OvfwWOHoUSMJyLa4vnBH3zpFmCwuzrBPlw7feXklurr/ZDiLjLxUScOot6jLRMz/67GyilEYMmP99LL0RQ==",
+  4769        "dependencies": {
+  4770:         "@react-navigation/core": "^6.4.16",
+  4771          "escape-string-regexp": "^4.0.0",
+
+  4779      },
+  4780:     "node_modules/@react-navigation/native-stack": {
+  4781        "version": "6.9.26",
+  4782:       "resolved": "https://registry.npmjs.org/@react-navigation/native-stack/-/native-stack-6.9.26.tgz",
+  4783        "integrity": "sha512-++dueQ+FDj2XkZ902DVrK79ub1vp19nSdAZWxKRgd6+Bc0Niiesua6rMCqymYOVaYh+dagwkA9r00bpt/U5WLw==",
+  4784        "dependencies": {
+  4785:         "@react-navigation/elements": "^1.3.30",
+  4786          "warn-once": "^0.1.0"
+
+  4788        "peerDependencies": {
+  4789:         "@react-navigation/native": "^6.0.0",
+  4790          "react": "*",
+
+  4795      },
+  4796:     "node_modules/@react-navigation/routers": {
+  4797        "version": "6.1.9",
+  4798:       "resolved": "https://registry.npmjs.org/@react-navigation/routers/-/routers-6.1.9.tgz",
+  4799        "integrity": "sha512-lTM8gSFHSfkJvQkxacGM6VJtBt61ip2XO54aNfswD+KMw6eeZ4oehl7m0me3CR9hnDE4+60iAZR8sAhvCiI3NA==",
+
+  7792          "@radix-ui/react-slot": "1.0.1",
+  7793:         "@react-navigation/bottom-tabs": "~6.5.7",
+  7794:         "@react-navigation/native": "~6.1.6",
+  7795:         "@react-navigation/native-stack": "~6.9.12",
+  7796          "expo-splash-screen": "0.27.5",
+
+  7800        "peerDependencies": {
+  7801:         "@react-navigation/drawer": "^6.5.8",
+  7802          "expo": "*",
+
+  7810        "peerDependenciesMeta": {
+  7811:         "@react-navigation/drawer": {
+  7812            "optional": true
+
+package.json:
+  16      "@expo/vector-icons": "^14.0.0",
+  17:     "@react-navigation/native": "^6.1.17",
+  18:     "@react-navigation/native-stack": "^6.9.26",
+  19      "@reduxjs/toolkit": "^2.2.5",
+
+yarn.lock:
+  2234  
+  2235: "@react-navigation/bottom-tabs@~6.5.7":
+  2236    version "6.5.20"
+  2237:   resolved "https://registry.npmjs.org/@react-navigation/bottom-tabs/-/bottom-tabs-6.5.20.tgz"
+  2238    integrity sha512-ow6Z06iS4VqBO8d7FP+HsGjJLWt2xTWIvuWjpoCvsM/uQXzCRDIjBv9HaKcXbF0yTW7IMir0oDAbU5PFzEDdgA==
+  2239    dependencies:
+  2240:     "@react-navigation/elements" "^1.3.30"
+  2241      color "^4.2.3"
+
+  2243  
+  2244: "@react-navigation/core@^6.4.16":
+  2245    version "6.4.16"
+  2246:   resolved "https://registry.npmjs.org/@react-navigation/core/-/core-6.4.16.tgz"
+  2247    integrity sha512-UDTJBsHxnzgFETR3ZxhctP+RWr4SkyeZpbhpkQoIGOuwSCkt1SE0qjU48/u6r6w6XlX8OqVudn1Ab0QFXTHxuQ==
+  2248    dependencies:
+  2249:     "@react-navigation/routers" "^6.1.9"
+  2250      escape-string-regexp "^4.0.0"
+
+  2255  
+  2256: "@react-navigation/elements@^1.3.30":
+  2257    version "1.3.30"
+  2258:   resolved "https://registry.npmjs.org/@react-navigation/elements/-/elements-1.3.30.tgz"
+  2259    integrity sha512-plhc8UvCZs0UkV+sI+3bisIyn78wz9O/BiWZXpounu72k/R/Sj5PuZYFJ1fi6psvriUveMCGh4LeZckAZu2qiQ==
+  2260  
+  2261: "@react-navigation/native-stack@^6.9.26", "@react-navigation/native-stack@~6.9.12":
+  2262    version "6.9.26"
+  2263:   resolved "https://registry.npmjs.org/@react-navigation/native-stack/-/native-stack-6.9.26.tgz"
+  2264    integrity sha512-++dueQ+FDj2XkZ902DVrK79ub1vp19nSdAZWxKRgd6+Bc0Niiesua6rMCqymYOVaYh+dagwkA9r00bpt/U5WLw==
+  2265    dependencies:
+  2266:     "@react-navigation/elements" "^1.3.30"
+  2267      warn-once "^0.1.0"
+  2268  
+  2269: "@react-navigation/native@^6.0.0", "@react-navigation/native@^6.1.17", "@react-navigation/native@~6.1.6":
+  2270    version "6.1.17"
+  2271:   resolved "https://registry.npmjs.org/@react-navigation/native/-/native-6.1.17.tgz"
+  2272    integrity sha512-mer3OvfwWOHoUSMJyLa4vnBH3zpFmCwuzrBPlw7feXklurr/ZDiLjLxUScOot6jLRMz/67GyilEYMmP99LL0RQ==
+  2273    dependencies:
+  2274:     "@react-navigation/core" "^6.4.16"
+  2275      escape-string-regexp "^4.0.0"
+
+  2278  
+  2279: "@react-navigation/routers@^6.1.9":
+  2280    version "6.1.9"
+  2281:   resolved "https://registry.npmjs.org/@react-navigation/routers/-/routers-6.1.9.tgz"
+  2282    integrity sha512-lTM8gSFHSfkJvQkxacGM6VJtBt61ip2XO54aNfswD+KMw6eeZ4oehl7m0me3CR9hnDE4+60iAZR8sAhvCiI3NA==
+
+  4180      "@radix-ui/react-slot" "1.0.1"
+  4181:     "@react-navigation/bottom-tabs" "~6.5.7"
+  4182:     "@react-navigation/native" "~6.1.6"
+  4183:     "@react-navigation/native-stack" "~6.9.12"
+  4184      expo-splash-screen "0.27.5"
+
+app/_layout.tsx:
+   1  import FontAwesome from '@expo/vector-icons/FontAwesome';
+   2: import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
+   3  import { useFonts } from 'expo-font';
+
+  29  
+  30:   // Expo Router uses Error Boundaries to catch errors in the navigation tree.
+  31    useEffect(() => {
+
+app/(tabs)/_layout.tsx:
+  25          // Disable the static render of the header on web
+  26:         // to prevent a hydration error in React Navigation v6.
+  27          headerShown: useClientOnlyValue(false, true),
